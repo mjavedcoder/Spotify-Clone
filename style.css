@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+  background-color: lightgray;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 40px;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 10px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.logo img {
+  height: 30px;
+  padding: 0px 8px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.container {
+  min-height: 73vh;
+  width: 70%;
+  background-color: black;
+  display: flex;
+  color: white;
+  margin: 26px auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: url("img-3.jpg");
+  background-size: 500px 600px;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: "Lobster", cursive;
+}
+
+.base {
+  background-color: black;
+  height: 110px;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.icons {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#songs-bar {
+  width: 70vw;
+}
+
+.items {
+  height: 40px;
+  display: flex;
+  background-color: white;
+  color: black;
+  width: 120%;
+  margin: 12px 5px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.items img {
+  width: 35px;
+  margin: 10px 10px;
+  border-radius: 44px;
+}
+
+.list-1 {
+  margin: 0 20px;
+}
+
+.list-1 i {
+  cursor: pointer;
+}
+
+.itemsContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gif {
+  position: absolute;
+  left: 15vw;
+}
+
+.gif img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
