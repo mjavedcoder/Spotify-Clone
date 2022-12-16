@@ -80,6 +80,7 @@ nav ul li {
 
 #songs-bar {
   width: 70vw;
+  cursor: pointer;
 }
 
 .items {
@@ -116,9 +117,10 @@ nav ul li {
 .gif {
   position: absolute;
   left: 15vw;
+  font-family: "Lobster", cursive;
 }
 
 .gif img {
   opacity: 0;
-  transition: opacity 1s ease-in;
+  transition: opacity 0.7s ease-in;
 }
